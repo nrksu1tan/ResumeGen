@@ -118,7 +118,7 @@
 
 
 body {
-    background-image: url('/images/fon.jpg'); /* Путь к фото */
+    background-image: url('https://raw.githubusercontent.com/nrksu1tan/ResumeGen/refs/heads/main/images/fon.jpg'); /* Путь к фото */
     background-size: cover; /* Подгоняет фото под размер экрана */
     background-repeat: no-repeat; /* Убирает повтор */
     background-attachment: fixed;
