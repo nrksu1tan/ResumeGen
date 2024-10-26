@@ -13,24 +13,25 @@
                 <img src="https://raw.githubusercontent.com/nrksu1tan/ResumeGen/refs/heads/main/images/avatar.jpg" alt="Profile Photo">
             </div>
             <section class="contact">
-                <h3>Contact</h3>
-                <p>📞 +01 346 734 3475</p>
-                <p>📧 jeniffer@gmail.com</p>
-                <p>🌐 www.jeniffer.com</p>
-                <p>📍 123 Your Street Name</p>
+                <h3>Контакты</h3>
+                <p>📞 +7 776 753 9984</p>
+                <p>📧 nrksu1tan@mail.ru</p>
+                <p><a href="https://nrksu1tan.github.io" target="_blank" class="portfilelink">🌐 nrksu1tan.github.io</a></p>
             </section>
             <section class="diplom">
-                <h3>Education</h3>
+                <h3>Образование</h3>
                 <p><strong>КГУ "Шубаркудукская Гимназия"</strong><br>2011-2022<br>Общая оценка по всем предметам — 4.9 из 5.0</p>
                 <p><strong>Актюбинский региональный университет им. "К. Жубанова"</strong><br>Техник-программист<br>2022-2025<br><i>GPA за всё время обучения — 3.38–4.0</i></p>
             </section>
             <section class="skils">
-                <h3>Pro Skills</h3>
-                <p>HTML/CSS</p>
-                <p>JavaScript</p>
-                <p>MS Office</p>
-                <p>Photoshop</p>
-                <p>C++ | Python</p>
+                <h3>Навыки</h3>
+                <div class="skills">
+                    <p>HTML/CSS <span class="stars">★★★☆☆</span></p>
+                    <p>JavaScript <span class="stars">★★☆☆☆</span></p>
+                    <p>MS Office <span class="stars">★★★★★</span></p>
+                    <p>Photoshop <span class="stars">★★★★★</span></p>
+                    <p>C++ | Python <span class="stars">★★★★☆</span></p>
+                </div>
             </section>
         </div>
         
@@ -44,40 +45,63 @@
 
         <div class="main-content">
             <section class="profile">
-                <h3>Professional Profile</h3>
-                <p>Hello! I am Jeniffer Smith, a Graphic Designer. Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                <h3>Профиль</h3>
+                <p>Я — начинающий специалист в области IT с опытом работы помощником системного администратора и разработкой веб-проектов. Интересуюсь программированием, виртуальной фотографией и люблю решать сложные задачи.</p>
             </section>
             <section class="experience">
-                <h3>Work Experience</h3>
-                <div class="job">
-                    <h4>Junior Graphic Designer</h4>
-                    <p><em>Your Company Name Here // New York</em> <span class="date">Present-2018</span></p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Consequatur adipisci rerum incidunt omnis laborum.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <h4>Senior Web Developer</h4>
-                    <p><em>Your Company Name Here // USA</em> <span class="date">2015-2017</span></p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Consequatur adipisci rerum incidunt omnis laborum.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <h4>Junior LED Web Designer</h4>
-                    <p><em>Your Company Name Here // London</em> <span class="date">2012-2014</span></p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Consequatur adipisci rerum incidunt omnis laborum.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
-                    </ul>
+                <h3>Опыт работы <button onclick="toggleSection('experience-content')">Свернуть</button></h3>
+                <div id="experience-content" class="collapsible">
+                    <div class="job">
+                        <h4>Помощник системного администратора</h4>
+                        <p><em>Акимат с. Шубар-Кудук // Казахстан</em> <span class="date">Май 2024 — Июнь 2024</span></p>
+                    </div>
                 </div>
             </section>
+            <section class="projects">
+                <h3>Проекты <button onclick="toggleSection('projects-content')">Свернуть</button></h3>
+                <div id="projects-content" class="collapsible">
+                    <div class="project">
+                        <h4>Сайт о родословной</h4>
+                        <p>Проработанный сайт с использованием JavaScript и схемой родословной.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Онлайн-портфолио</h4>
+                        <p>Персональный сайт, демонстрирующий мои навыки и работы.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Сайт для университета Женпу</h4>
+                        <p>Сайт сборника лекций, выполненный на заказ для университета в Алматы.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Онлайн-резюме</h4>
+                        <p>Сайт для создания шаблонов резюме и их скачивания в формате Word, PDF или изображения.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="bottom-sections">
+                <section class="languages">
+                    <h3>Языки</h3>
+                    <p>Казахский — свободно</p>
+                    <p>Русский — свободно</p>
+                    <p>Английский — базовый</p>
+                </section>
+                <section class="interests">
+                    <h3>Интересы</h3>
+                    <p>Фотография, программирование, виртуальная фотография в играх, игры, фильмы и сериалы.</p>
+                </section>
+            </div>
         </div>
     </div>
+
+    <script>
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            if (section.style.display === 'none') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
