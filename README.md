@@ -1,16 +1,15 @@
-# ResumeGen
+This project is hosted on GitHub and anyone can use it to create a cool resume quickly and easily, without all that complicated programming stuff.
 
-This project is hosted on GitHub and is open to anyone who wants to quickly and easily create their resume without resorting to complex programs.
+The future plans for this project include:
 
-**Future Features:**
-Export to Word, PDF and Image: We plan to add the ability to export your resume to popular formats such as PDF and Word, as well as save it as an image.
+Exporting to Word, PDF, and image formats so you can save your resume in different formats.
 
-Customization of templates: Users will be able to choose from various styles and themes for their resume.
+Customizable templates with different styles and themes to make your resume look great.
 
-LinkedIn integration: The ability to import data from a LinkedIn profile to automatically fill out a resume.
+LinkedIn integration to import data from your LinkedIn profile and automatically fill in your resume.
 
-Photo and graphics support: Insert profile photos and icons to enhance the look of your resume.
+Photo and graphics support to add profile photos and icons for a more professional touch.
 
-Multi-language support: The application interface will be available in multiple languages to reach an international audience.
+Multi-language support so the app interface is available in different languages for an international audience.
 
-**This project is open to everyone on GitHub, where you can see the current code, suggest improvements and participate in development.**
+So, this project is totally open on GitHub for everyone to see, contribute to, and help develop. Check it out and let's make some awesome resumes!
